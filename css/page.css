@@ -1,0 +1,60 @@
+/* #region RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a:link,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  all: unset; /* Remove all default styles */
+  display: inline-block; /* Ensure it behaves like a button */
+  cursor: pointer; /* Show pointer on hover */
+  background: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  font-family: inherit; /* Inherit font from parent */
+  font-size: inherit; /* Inherit font size from parent */
+  color: inherit; /* Inherit text color */
+  text-align: center; /* Center text */
+  line-height: inherit; /* Inherit line height */
+  text-decoration: none; /* Remove any text decoration */
+  outline: none; /* Remove default outline */
+  appearance: none; /* Remove platform-specific styling */
+  box-shadow: none; /* Remove shadow */
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+/* #endregion */
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.section-container {
+  margin-inline: auto;
+  width: 1200px;
+}
