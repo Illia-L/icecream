@@ -10,6 +10,135 @@
 
 /* #region SECTION PRODUCTS */
 
+
+
+.section-container {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    }
+    
+    .section-products {
+      font-family: "Titan One", sans-serif;
+      font-weight: 400;
+    }
+    
+    .section-title {
+      margin-top: 61px;
+    margin-bottom: 20px;
+    }
+    
+    .title-quality {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffa5ba;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+    
+    .title {
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d41443;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+    
+    .product-item-title {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+    
+    .product-list {
+    display:flex;
+    gap:32px;
+    height: 796px;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    }
+    
+    
+    .product-item {
+    position: relative;
+    width: calc((100% - 32px - 32px - 32px) / 3);
+    }
+    
+    .product-pic {
+      display: block;
+    position: absolute;
+    bottom: 402px;
+    }
+    
+    .product-dots {
+    fill: rgba(255, 255, 255, 1);
+    }
+    
+    .product-item-box {
+    border-radius: 24px;
+    width: 368px;
+    text-align: center;
+    margin-top: 261px;
+    min-height: 535px;
+    margin-bottom: 60px;
+    }
+    
+    .product-item-icecream {
+    background: #ffb8ca;
+    
+    }
+    
+    .product-item-icecoffee {
+    background: #f0d1a5;
+    }
+    
+    .product-item-milkshakes {
+    background: #c2e297;  
+    }
+    
+    .product-item-title {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-top: 165px;
+    padding-bottom: 32px;
+    }
+    
+    .product-item-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    padding: 32px;
+    }
+    
+    .product-arrow {
+      display: flex;
+      margin: 0 auto;
+    }
+
+
+
 /* #endregion */
 
 
