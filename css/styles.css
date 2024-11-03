@@ -1,33 +1,3 @@
-body {
-    font-family: "DM Sans", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-ul,
-ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
 /* #region SECTION HEADER */
 
 .header {
@@ -342,5 +312,30 @@ img {
     right: 5px;
     bottom: -145px;
 }
+
+/* #endregion */
+
+
+/* #region SECTION PRODUCTS */
+
+/* #endregion */
+
+
+/* #region SECTION HOW IT'S MADE */
+
+/* #endregion */
+
+
+/* #region SECTION REVIEWS */
+
+/* #endregion */
+
+
+/* #region SECTION LOCATIONS */
+
+/* #endregion */
+
+
+/* #region SECTION FOOTER */
 
 /* #endregion */
