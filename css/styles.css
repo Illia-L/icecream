@@ -28,6 +28,8 @@ img {
     max-width: 100%;
 }
 
+/* #region SECTION HEADER */
+
 .header {
     background: #ffb8ca;
     padding-top: 37px;
@@ -126,6 +128,10 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+
+/* #endregion */
+
+/* #region SECTION HERO */
 
 .hero {
     background: #ffb8ca;
@@ -270,12 +276,12 @@ img {
 
 .hero-icons-1 {
     position: relative;
-    
+
 }
 
 .hero-icons-2 {
     position: relative;
-    
+
 }
 
 .hero-icon-1 {
@@ -336,3 +342,5 @@ img {
     right: 5px;
     bottom: -145px;
 }
+
+/* #endregion */
