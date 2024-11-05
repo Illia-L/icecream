@@ -20,10 +20,6 @@
 
 .section-products {
   font-family: "Titan One", sans-serif;
-  font-weight: 400;
-  }
-.section-products {
-  font-family: "Titan One", sans-serif;
   }
 
 .section-title {
@@ -53,7 +49,26 @@
 .product-list {
   margin-left: 20px;
   margin-right: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
 }
+
+.product-item {
+  position: relative;
+  width: 100%;
+  border-radius: 24px;
+  }
+
+  .product-item-box {
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 160px;
+    height: 489px;
+    }
 
 .product-item-title {
     padding-top: 160px;
@@ -79,28 +94,9 @@
     padding: 32px;
     }
 
-.product-list {
-  display:flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
-  }
 
-.product-item {
-  position: relative;
-  width: 100%;
-  border-radius: 24px;
-  }
 
-  .product-item-box {
-    border-radius: 24px;
-    width: 280px;
-    text-align: center;
-    margin-top: 160px;
-    height: 489px;
-    }
+
 
 
 .product-item-icecream {
@@ -134,8 +130,63 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
 
+  .section-container {
+    max-width: 768px;
+    }
+
+  .section-title {
+      margin-bottom: 20px;
+      }
+  
+  .title-quality {
+    font-size: 26px;
+    margin-bottom: 18px;
 }
 
+  .title {
+  font-size: 48px;
+  }
+
+  .product-list {
+    margin-left: 32px;
+    margin-right: 32px;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+  
+  .product-item {
+    position: relative;
+    width: calc((100% - 16px - 16px) / 3);
+    }
+
+  .product-item-title {
+    padding-top: 118px;
+    margin-top: 32px;
+    }
+
+    .product-item-text {
+      line-height: 176%;
+    }
+   
+    .product-item-box {
+      border-radius: 24px;
+      text-align: center;
+      height: 473px;
+      margin-top: 158px;
+      padding-bottom: 40px;
+      }
+
+   .product-pic {
+    display: block;
+    position: absolute;
+    bottom: 387px;
+      }
+
+      .product-arrow {
+        margin-bottom: 0px;
+      }
+
+    }
 
 @media screen and (min-width: 1158px) {
  .section-container {
