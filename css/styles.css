@@ -11,19 +11,140 @@
 /* #region SECTION PRODUCTS */
 
 
-
 .section-container {
+  max-width: 320px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  }
+
+.section-products {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  }
+.section-products {
+  font-family: "Titan One", sans-serif;
+  }
+
+.section-title {
+  margin-bottom: 8px;
+  }
+
+  .title-quality {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffa5ba;
+    margin-bottom: 15px;
+    }
+    
+  .title {
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d41443;
+    margin-bottom: 0;
+    }
+
+.product-list {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product-item-title {
+    padding-top: 160px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+    margin-top: 20px;
+    }
+
+
+.product-item-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    padding: 32px;
+    }
+
+.product-list {
+  display:flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+  }
+
+.product-item {
+  position: relative;
+  width: 100%;
+  border-radius: 24px;
+  }
+
+  .product-item-box {
+    border-radius: 24px;
+    width: 280px;
+    text-align: center;
+    margin-top: 160px;
+    height: 489px;
+    }
+
+
+.product-item-icecream {
+  background: #ffb8ca;
+  margin-top: 140px;
+  }
+    
+.product-item-icecoffee {
+  background: #f0d1a5;
+  }
+    
+.product-item-milkshakes {
+  background: #c2e297;  
+  }
+
+  .product-dots {
+    fill: rgba(255, 255, 255, 1);
+    }
+
+.product-pic {
+  display: block;
+  position: absolute;
+  bottom: 349px;
+  }
+
+  .product-arrow {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+
+}
+
+
+@media screen and (min-width: 1158px) {
+ .section-container {
     width: 1200px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    }
-    
-    .section-products {
-      font-family: "Titan One", sans-serif;
-      font-weight: 400;
-    }
-    
+    } 
+
     .section-title {
       margin-top: 61px;
     margin-bottom: 20px;
@@ -62,27 +183,15 @@
     margin-top: 0;
     }
     
-    .product-list {
-    display:flex;
-    gap:32px;
-    height: 796px;
-    list-style-type: none;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 0;
-    }
+    
     
     
     .product-item {
     position: relative;
-    width: calc((100% - 32px - 32px - 32px) / 3);
+    width: calc((100% - 32px - 32px) / 3);
     }
     
-    .product-pic {
-      display: block;
-    position: absolute;
-    bottom: 402px;
-    }
+   
     
     .product-dots {
     fill: rgba(255, 255, 255, 1);
@@ -121,21 +230,25 @@
     padding-bottom: 32px;
     }
     
-    .product-item-text {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 176%;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
-    padding: 32px;
-    }
+  
     
     .product-arrow {
       display: flex;
       margin: 0 auto;
     }
+
+  }
+
+
+
+    
+    
+
+
+
+
+    
+ 
 
 
 
