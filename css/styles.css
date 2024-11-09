@@ -11,16 +11,13 @@
 /* #region SECTION PRODUCTS */
 
 
-.section-container {
+.section-products {
   max-width: 320px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
-  }
-
-.section-products {
   font-family: "Titan One", sans-serif;
-  }
+}
 
 .section-title {
   margin-bottom: 8px;
@@ -123,9 +120,9 @@
     margin-bottom: 40px;
   }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
-  .section-container {
+  .section-products {
     max-width: 768px;
     }
 
@@ -191,16 +188,14 @@
     }
    
 
-   @media screen and (min-width: 1158px) {
+   @media screen and (min-width: 1200px) {
  
-     .section-container {
-    max-width: 1126px;
+    .section-products {
+    max-width: 1200px;
     padding-top: 61px;
     padding-bottom: 60px;
     margin: 0 auto;
     } 
-
-   
     
     .section-title {
     margin-bottom: 20px;
@@ -225,7 +220,6 @@
   display:flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
   gap: 32px;
 }
 
@@ -259,9 +253,9 @@
     .product-item-box {
     border-radius: 24px;
     width: 368px;
-    /* margin-top: 261px; */
+    margin-top: 261px;
     height: 535px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     }
   
     
