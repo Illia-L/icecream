@@ -266,9 +266,186 @@
 
   }
 
+  /* #endregion */
 
 
-    
+/* #region SECTION HOW IT'S MADE */
+
+@media screen and (max-width: 767px) {
+  
+
+  
+.made-section {
+  max-width:320px;
+  padding-top: 60px;
+  padding-bottom: 66px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "DM Sans", sans-serif;
+  background: #fff5f6;
+}
+
+.pre-title {
+font-family: "Titan One", serif;
+font-weight: 400;
+font-size: 18px;
+text-transform: uppercase;
+text-align: center;
+color: #ffa5ba;
+margin-bottom: 15px;
+}
+
+.him-section-title {
+font-family: "Titan One", serif;
+font-weight: 400;
+font-size: 34px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+margin: 0 auto;
+text-align: center;
+color: #d41443;
+max-width: 200px;
+margin-bottom: 32px;
+}
+
+.him-img {
+  display: block;
+  width: 280px;
+  height: 279px; 
+}
+
+.text-lid {
+font-family: "DM Sans", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 162%;
+letter-spacing: 0.04em;
+color: #000;
+text-align: left;
+margin-top: 40px;
+margin-bottom: 18px;
+width: 220px;
+}
+
+.text-process {
+font-weight: 500;
+font-size: 12px;
+line-height: 162%;
+letter-spacing: 0.04em;
+color: #907e82;
+text-align: left;
+margin-bottom: 20px;
+width: 220px;
+}
+
+.him-border-link {
+width: 176px;
+height: 44px;
+border-radius: 22px;
+width: 176px;
+height: 44px;
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.him-link {
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+color: #d41443;
+}
+
+.data-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.him-list-item {
+  width: 100%;
+}
+
+
+.him-svg {
+  fill: #FFA5BA;
+}
+
+
+.svg-border {
+background-color: transparent;
+border: none;
+margin-bottom: 16px;
+}
+
+.quantity {
+  font-family: "Titan One", serif;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-bottom: 4px;
+}
+
+
+.him-list-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .made-section {
+    max-width:768px;
+    padding-bottom: 205px;
+    padding-left: 32px;
+    padding-right: 34px;
+  }
+
+  .pre-title {
+    font-size: 26px;
+  }
+
+  .him-section-title {
+    font-size: 48px;
+  }
+  
+  .him-describe {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+   
+  .describe-content {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .text-lid {
+  font-size: 14px;
+  line-height: 174%;
+  margin-bottom: 32px;
+  }
+
+  .text-process {
+    font-size: 14px;
+    line-height: 194%;
+    margin-bottom: 40px;
+  }
+
+  .data-list {
+    flex-wrap: nowrap;
+  }
+
+  
+
+}
     
 
 
@@ -279,10 +456,7 @@
 
 
 
-/* #endregion */
 
-
-/* #region SECTION HOW IT'S MADE */
 
 /* #endregion */
 
