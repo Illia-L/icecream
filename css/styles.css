@@ -816,7 +816,7 @@
 
 .reviews-section {
   margin-top: -27px;
-  margin-bottom: 60px;
+  margin-bottom: 363px;
 }
 
 .reviews-container {
@@ -979,7 +979,7 @@
 @media (min-width: 768px) {
   .reviews-section {
     margin-top: -187px;
-    margin-bottom: 80px;
+    margin-bottom: 378px;
   }
 
   .reviews-container {
@@ -1088,7 +1088,7 @@
 @media (min-width: 1200px) {
   .reviews-section {
     margin-top: -89px;
-    margin-bottom: 120px;
+    margin-bottom: 219px;
   }
 
   .reviews-container {
