@@ -698,6 +698,10 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-stroke {
+    width: 320px;
+}
+
 .footer-stroke-icons {
     stroke-width: 1px;
     stroke: #e1e1e1;
@@ -809,6 +813,10 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    .footer-stroke {
+        width: 768px;
+    }
+
     .footer-stroke-icons {
         margin-bottom: 7px;
     }
@@ -896,6 +904,10 @@
     .footer-contact-color:hover,
     .footer-contact-color:focus {
         color: #907e82;
+    }
+
+    .footer-stroke {
+        width: 1167px;
     }
 }
 
