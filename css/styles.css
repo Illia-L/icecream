@@ -759,9 +759,14 @@
 
     .footer-text-social {
         display: flex;
-        align-items: baseline;
+        align-items: center;
+        justify-content: space-between;
         flex-direction: row;
         margin-bottom: 40px;
+    }
+
+    .footer-text {
+        margin-right: 128px;
     }
 
     .footer-text-home {
@@ -774,10 +779,8 @@
     .footer-text-pas {
         font-size: 48px;
         letter-spacing: 0.06em;
-    }
-
-    .footer-social {
-        margin-left: auto;
+        width: 340px;
+        height: 110px;
     }
 
     .footer-link-icons {
@@ -792,6 +795,9 @@
     .footer-contact {
         font-size: 16px;
         margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-contact-color {
@@ -813,7 +819,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1200px) {
     .footer-container {
         width: 1200px;
         min-height: 877px;
@@ -858,15 +864,24 @@
         margin-bottom: 60px;
     }
 
+    .footer-text {
+        margin-right: 375px;
+    }
+
     .footer-text-home {
         font-size: 30px;
-        width: 474px;
+        width: 472px;
+        height: 34px;
     }
 
 
     .footer-text-pas {
         font-size: 58px;
         width: 474px;
+        height: 66px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-icon:hover,
