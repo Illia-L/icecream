@@ -5,7 +5,8 @@
     max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 @media screen and (min-width:768px) {
@@ -13,6 +14,7 @@
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
+        overflow: visible;
     }
 }
 
@@ -135,12 +137,10 @@
 
 .hero-list-container {
     display: flex;
-    position: relative;
 }
 
 .hero-list-item {
     display: inline;
-    position: relative;
     z-index: 5;
 }
 
@@ -212,9 +212,8 @@
     height: 344px;
     position: absolute;
     z-index: 1;
-    right: -65px;
-    bottom: 75px;
-    /* top: 0; */
+    top: 0;
+    left: 36px;
 }
 
 .hero-icon-ice {
@@ -233,8 +232,6 @@
 @media screen and (min-width:768px) {
     .hero-list-container {
         display: flex;
-        position: relative;
-        padding-top: 10px;
     }
 
     .hero-list-item {
@@ -278,7 +275,6 @@
         margin-bottom: 7px;
         align-items: center;
         display: flex;
-        position: relative;
         z-index: 6;
     }
 
@@ -291,6 +287,11 @@
         display: flex;
     }
 
+    .hero-icon-Ellipse-3 {
+        width: 100%;
+        height: 100%;
+    }
+
     .hero-images {
         border-radius: 100%;
         fill: #ffa5ba;
@@ -298,8 +299,9 @@
         height: 333px;
         position: absolute;
         z-index: 1;
-        right: 165px;
-        bottom: 40px;
+        top: -54px;
+        left: 248px;
+
     }
 
     .hero-icon-ice {
@@ -323,7 +325,7 @@
         width: 43px;
         height: 44px;
         position: absolute;
-        right: 0;
+        right: 32px;
         bottom: 280px;
     }
 
@@ -332,7 +334,7 @@
         height: 43px;
         position: absolute;
         bottom: 221px;
-        right: 0;
+        right: 32px;
     }
 
     .hero-girl {
@@ -340,7 +342,7 @@
         height: 150px;
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: 32px;
         z-index: 4;
     }
 
@@ -415,8 +417,8 @@
     .hero-images {
         width: 534px;
         height: 534px;
-        right: 149px;
-        bottom: 76px;
+        left: 517px;
+        top: -54px;
     }
 
     .hero-big-ice {
@@ -429,17 +431,20 @@
         width: 72px;
         height: 77px;
         bottom: 436px;
+        right: 16px;
     }
 
     .hero-23 {
         width: 92px;
         height: 76px;
         bottom: 344px;
+        right: 16px;
     }
 
     .hero-girl {
         width: 304px;
         height: 241px;
+        right: 16px;
     }
 
     .hero-girl-ice {
