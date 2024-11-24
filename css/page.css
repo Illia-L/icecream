@@ -15,7 +15,7 @@ img {
   max-width: 100%;
 }
 
-a:link,
+a,
 a:hover,
 a:focus,
 a:active,
@@ -28,26 +28,41 @@ a:visited {
 }
 
 button {
-  all: unset; /* Remove all default styles */
-  display: inline-block; /* Ensure it behaves like a button */
-  cursor: pointer; /* Show pointer on hover */
-  background: transparent; /* Transparent background */
-  border: none; /* Remove border */
-  font-family: inherit; /* Inherit font from parent */
-  font-size: inherit; /* Inherit font size from parent */
-  color: inherit; /* Inherit text color */
-  text-align: center; /* Center text */
-  line-height: inherit; /* Inherit line height */
-  text-decoration: none; /* Remove any text decoration */
-  outline: none; /* Remove default outline */
-  appearance: none; /* Remove platform-specific styling */
-  box-shadow: none; /* Remove shadow */
+  all: unset;
+  /* Remove all default styles */
+  display: inline-block;
+  /* Ensure it behaves like a button */
+  cursor: pointer;
+  /* Show pointer on hover */
+  background: transparent;
+  /* Transparent background */
+  border: none;
+  /* Remove border */
+  font-family: inherit;
+  /* Inherit font from parent */
+  font-size: inherit;
+  /* Inherit font size from parent */
+  color: inherit;
+  /* Inherit text color */
+  text-align: center;
+  /* Center text */
+  line-height: inherit;
+  /* Inherit line height */
+  text-decoration: none;
+  /* Remove any text decoration */
+  outline: none;
+  /* Remove default outline */
+  appearance: none;
+  /* Remove platform-specific styling */
+  box-shadow: none;
+  /* Remove shadow */
 }
 
 ul,
 ol {
   list-style-type: none;
 }
+
 /* #endregion */
 
 body {
