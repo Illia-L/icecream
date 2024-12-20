@@ -1,7 +1,10 @@
 /* #region SECTION HEADER */
+.header,
+.hero {
+   background-color: #ffb8ca;
+}
 
 .container {
-    background: #ffb8ca;
     max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
@@ -153,7 +156,7 @@
     width: 218px;
     height: 106px;
     margin-bottom: 20px;
-    margin-top: 136px;
+    margin-top: 111px;
 }
 
 .hero-icon-Ellipse-3 {
@@ -183,7 +186,7 @@
     height: 24px;
     background: #d41443;
     padding: 7px 0;
-    margin-right: 9px;
+    margin-right: 8px;
     border: none;
 }
 
@@ -225,7 +228,7 @@
     width: 171px;
     height: 410px;
     bottom: 0;
-    right: 12px;
+    right: 32px;
 }
 
 @media screen and (min-width:768px) {
@@ -256,6 +259,7 @@
     .hero-milk-photo {
         display: flex;
         align-items: end;
+        margin-bottom: 16px;
     }
 
     .hero-milk {
@@ -278,7 +282,7 @@
 
     .hero-section {
         display: inline;
-        margin-bottom: 16px;
+        margin-bottom: 40px;
     }
 
     .hero-ice-girl {
@@ -468,7 +472,7 @@
 }
 
 .container-modal {
-    max-width: 320px;
+    max-width: 250px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -500,25 +504,43 @@
     padding-bottom: 15px;
     text-align: center;
     color: #d41443;
-    margin: 0 auto 32px auto;
+    margin: 0 auto 20px auto;
 }
 
 .mobal-list {
     display: flex;
     flex-direction: column;
-    gap: 23px;
 }
 
 .mobal-link {
     font-weight: 700;
     font-size: 14px;
     color: #fff;
+    border: 1px solid #e18298;
+    padding: 12px;
+    width: 250px;
+    border-left: none;
+    border-right: none;
 }
 
 .header-home {
     font-weight: 700;
     font-size: 14px;
     color: #d41443;
+}
+
+@media screen and (min-width:768px) {
+    .container-modal {
+        max-width: 254px;
+    }
+
+    .mobal-button-item {
+        width: 186px; 
+    }
+
+    .mobal-link {
+        width: 254px;
+    }
 }
 
 @media screen and (min-width:1200px) {
