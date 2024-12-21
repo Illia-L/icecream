@@ -287,7 +287,8 @@
   padding-right: 20px;
   font-family: "DM Sans", sans-serif;
   background-image: url("../images/how_it_made/spray.png");
-  background-position: 594px 20px;
+  background-position: 0 594px;
+  background-size: 280px 133px;
   background-repeat: no-repeat;
 }
 
@@ -386,11 +387,6 @@ color: #d41443;
 }
 
 
-/* .him-svg {
-  fill: #FFA5BA;
-  stroke: #FFA5BA;
-} */
-
 .svg-border {
 background-color: transparent;
 border: none;
@@ -425,6 +421,7 @@ height: 50px;
 
   .made {
     background: #fff5f6;
+    padding-top: 60px;
   }
 
   .made-section {
@@ -515,6 +512,7 @@ letter-spacing: 0.04em;
     flex-wrap: nowrap;
     gap: 21px;
     margin-right: 141px;
+    padding-top: 52px;
   }
 
 .him-svg {
@@ -553,18 +551,21 @@ height: 50px;
 
   .made {
     background: #fff5f6;
+    padding-top: 60px;
   }
 
 .made-section {
   max-width: 1200px;
   background-image: url("../images/how_it_made/spray.png");
-  background-position: 236px 0;
+  background-position: 0 136px;
   background-repeat: no-repeat;
+  background-size: 1200px 521px;
 }
 
 @media screen and (min-resolution:192dpi) {
   .made-section {
     background-image:  url("../images/how_it_made/spray_mob@2x.png");
+  
   }
 }
 
@@ -594,11 +595,7 @@ text-align: center;
 color: #d41443;
 }
 
-.spray_img {
-  position: absolute;
-  top: 176px;
-  z-index: 1;
-}
+
 
 .him-describe {
   display: flex;
@@ -694,8 +691,8 @@ z-index: 2;
   .him-list-text {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 174%;
+  font-size: 16px;
+  line-height: 176%;
   letter-spacing: 0.02em;
   color: #000;
   }
