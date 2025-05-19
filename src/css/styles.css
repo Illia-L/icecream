@@ -1,0 +1,29 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+
+@import url('./reset.scss');
+@import url('./normalize.css');
+@import url('./variables.scss');
+@import url('./base.scss');
+@import url('./container.scss');
+
+/* Sections style */
+
+@import url('./button-buy-now.scss');
+@import url('./nav.scss');
+@import url('./header.scss');
+@import url('./hero.scss');
+@import url('./products.scss');
+@import url('./product.scss');
+@import url('./made.scss');
+@import url('./reviews.scss');
+@import url('./locations.scss');
+@import url('./location.scss');
+@import url('./footer.scss');
+@import url('./mob-menu.scss');
+

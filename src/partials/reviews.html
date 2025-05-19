@@ -1,0 +1,76 @@
+<section class="reviews" id="reviews">
+  <div class="container reviews-container">
+    <div class="reviews-collage-box">
+      <picture>
+        <source
+          srcset="
+            /img/reviews/collage-mob.webp    1x,
+            /img/reviews/collage-mob-2x.webp 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            /img/reviews/collage-tab.webp    1x,
+            /img/reviews/collage-tab-2x.webp 2x
+          "
+          media="(min-width: 768px) and (max-width: 1199px)"
+        />
+        <source
+          srcset="
+            /img/reviews/collage.webp    1x,
+            /img/reviews/collage-2x.webp 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <img
+          src="/img/reviews/collage.webp"
+          width="1013"
+          height="430"
+          alt="Photo collage showing a variety of ice cream: cones, sticks, milkshakes, served on glass plate decorated with berries..."
+          loading="lazy"
+        />
+      </picture>
+    </div>
+
+    <div class="swiper">
+      <ul class="reviews-list swiper-wrapper">
+        <load
+          src="/partials/review.html"
+          fileName="emily"
+          review="I love visiting
+        your cafe. You prepare the most delicious ice cream in Los Angeles! In
+        addition, you have beautiful serving, cozy atmosphere and polite staff."
+          nameCity="Emily, Los Angeles"
+        />
+        <load
+          src="/partials/review.html"
+          fileName="ann"
+          review="I always enjoy stopping by your café. You serve the most
+          aromatic coffee in the whole neighborhood! Plus, the decor is charming,
+          the vibe is relaxing."
+          nameCity="Ann, Chicago"
+        />
+        <load
+          src="/partials/review.html"
+          fileName="pamela"
+          review="You make the tastiest tacos in the whole city! Еhe service is
+          quick, portions are generous, and your staff is super friendly."
+          nameCity="Pamela, New York"
+        />
+      </ul>
+    </div>
+
+    <ul class="review-controls">
+      <li class="reviews-controls-item">
+        <button class="review-controls-button" type="button"></button>
+      </li>
+      <li class="reviews-controls-item">
+        <button class="review-controls-button" type="button"></button>
+      </li>
+      <li class="reviews-controls-item">
+        <button class="review-controls-button" type="button"></button>
+      </li>
+    </ul>
+  </div>
+</section>

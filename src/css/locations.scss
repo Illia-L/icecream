@@ -1,0 +1,243 @@
+@import 'variables';
+
+.locations {
+  margin-top: 60px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(var(--color-light-pink));
+  background-position: center top 303px;
+  background-repeat: no-repeat;
+  scroll-margin-top: 100px;
+
+  @media (min-width: $screen-tab) {
+    background-position: center top 298px;
+  }
+
+  @media (min-width: $screen-desk) {
+    background-position: center top 99px;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media (min-width: $screen-tab) {
+      flex-direction: row;
+      gap: 32px;
+    }
+
+    &-item {
+      @media (min-width: $screen-tab) {
+        width: calc((100% - 2 * 32px) / 3);
+      }
+    }
+  }
+
+  &-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 32px;
+
+    @media (min-width: $screen-tab) {
+      flex-direction: row;
+      gap: 16px;
+      margin-top: 60px;
+    }
+
+    @media (min-width: $screen-desk) {
+      gap: 12px;
+    }
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 22px;
+    width: 162px;
+    height: 44px;
+
+    @media (min-width: $screen-tab) {
+      gap: 14px;
+    }
+
+    &--red {
+      color: #fff;
+      background-color: #d41342;
+      stroke: #fff;
+      transition: background-color var(--transition);
+
+      &:hover {
+        background-color: var(--color-red-10);
+      }
+    }
+
+    &--white {
+      color: #d41342;
+      background-color: #fff;
+      stroke: #d41342;
+      transition: background-color var(--transition);
+
+      &:hover {
+        background-color: var(--color-grey);
+      }
+    }
+
+    &-text {
+      flex-shrink: 0;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &-icon {
+      width: 6px;
+      height: 12px;
+      fill: none;
+    }
+  }
+
+  &-slogan-address-box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+
+    @media (min-width: $screen-tab) {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 120px;
+    }
+  }
+
+  &-contacts {
+    @media (min-width: $screen-tab) {
+      margin-top: 60px;
+    }
+
+    @media (min-width: $screen-desk) {
+      margin-top: auto;
+    }
+  }
+
+  &-slogan {
+    width: 232px;
+
+    @media (min-width: $screen-tab) {
+      width: 340px;
+    }
+
+    @media (min-width: $screen-desk) {
+      width: unset;
+    }
+
+    &-pink {
+      display: block;
+      font-family: 'Titan One', sans-serif;
+      line-height: 1;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: var(--color-pink);
+
+      @media (min-width: $screen-tab) {
+        font-size: 26px;
+        letter-spacing: 0.04em;
+      }
+
+      @media (min-width: $screen-desk) {
+        font-size: 30px;
+      }
+    }
+
+    &-red {
+      display: block;
+      margin-top: 16px;
+      font-family: 'Titan One', sans-serif;
+      line-height: 1;
+      font-size: 34px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--color-red);
+
+      @media (min-width: $screen-tab) {
+        margin-top: 12px;
+        font-size: 48px;
+        letter-spacing: 0.06em;
+      }
+
+      @media (min-width: $screen-desk) {
+        margin-top: 16px;
+        font-size: 58px;
+      }
+    }
+  }
+
+  &-socials {
+    display: flex;
+    gap: 28px;
+    justify-content: flex-end;
+
+    @media (min-width: $screen-tab) {
+      gap: 30px;
+    }
+  }
+
+  &-social {
+    &-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #fea5bb;
+      transition: background-color var(--transition);
+
+      &:hover {
+        background-color: var(--color-red);
+      }
+
+      @media (min-width: $screen-tab) {
+        width: 34px;
+        height: 34px;
+      }
+    }
+
+    &-icon {
+      width: 19px;
+      height: 19px;
+
+      @media (min-width: $screen-tab) {
+        width: 20px;
+      }
+    }
+  }
+
+  &-contacts-phone {
+    margin-top: 40px;
+    line-height: 1.86;
+    font-size: 12px;
+    font-weight: 700;
+
+    @media (min-width: $screen-tab) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-desk) {
+      font-size: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    &-link {
+      color: var(--color-red);
+      transition: color 200ms linear;
+
+      &:hover {
+        color: var(--color-red-10);
+      }
+    }
+  }
+}

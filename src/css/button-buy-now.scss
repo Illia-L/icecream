@@ -1,0 +1,28 @@
+
+.buy-now {
+  width: 160px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 22px;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-red);
+  background-color: #fff;
+  transition: background-color var(--transition);
+
+  &:hover {
+    background-color: var(--color-grey);
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  &-icon {
+    fill: none;
+    stroke: var(--color-red);
+  }
+}

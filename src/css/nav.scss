@@ -1,0 +1,21 @@
+.nav {
+  &-list {
+    display: flex;
+  }
+
+  &-link {
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--color-grey);
+    }
+
+    &.active,
+    &.active:hover {
+      color: var(--color-red);
+    }
+  }
+}

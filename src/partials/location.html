@@ -1,0 +1,36 @@
+<li class="locations-list-item location">
+  <p class="location-label location-label--{=$labelClass}">{=$label}</p>
+
+  <p class="location-city">{=$city}</p>
+
+  <p class="location-desc">{=$desc}</p>
+
+  <dl class="location-working">
+    <dt class="location-working-days">Monday - Friday</dt>
+
+    <dd class="location-working-hours">
+      <time datetime="06:00">{=$weekdaysOpen}</time> -
+      <time datetime="10:00">{=$weekdaysClose}</time>
+    </dd>
+
+    <dt class="location-working-days">Saturday - Sunday</dt>
+
+    <dd class="location-working-hours">
+      <time datetime="08:00">{=$weekendOpen}</time> -
+      <time datetime="16:00">{=$weekendClose}</time>
+    </dd>
+  </dl>
+
+  <address class="location-contacts">
+    <ul class="location-contacts-list">
+      <li>
+        <a class="location-contacts-link" href="tel:{=$phoneFormated}"
+          >{=$phone}</a
+        >
+      </li>
+      <li>
+        <a class="location-contacts-link" href="mailto:{=$email}">{=$email}</a>
+      </li>
+    </ul>
+  </address>
+</li>

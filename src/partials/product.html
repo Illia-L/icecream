@@ -1,0 +1,46 @@
+<li class="products-item product product-{=$color}">
+  <div class="product-image-box">
+    <picture>
+      <source
+        srcset="
+          /img/products/icecream-{=$color}-mob.webp    1x,
+          /img/products/icecream-{=$color}-mob-2x.webp 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          /img/products/icecream-{=$color}-tab.webp    1x,
+          /img/products/icecream-{=$color}-tab-2x.webp 2x
+        "
+        media="(min-width: 768px) and (max-width: 1199px)"
+      />
+      <source
+        srcset="
+          /img/products/icecream-{=$color}.webp    1x,
+          /img/products/icecream-{=$color}-2x.webp 2x
+        "
+        media="(min-width: 1200px)"
+      />
+      <img
+        class="content-image"
+        src="/img//products/icecream-{=$color}.webp"
+        alt="A waffle cone with ice cream, strawberry and a mint leaf"
+      />
+    </picture>
+  </div>
+
+  <h3 class="product-title">{=$title}</h3>
+
+  <div class="product-dots-box">
+    <div class="product-dots-dot"></div>
+    <div class="product-dots-dot"></div>
+    <div class="product-dots-dot"></div>
+  </div>
+
+  <p class="product-description">{=$description}</p>
+
+  <a class="product-link" href="">
+    <span class="product-link-visual"></span>
+  </a>
+</li>

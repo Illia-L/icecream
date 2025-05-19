@@ -1,0 +1,32 @@
+<div class="header-position-indicator"></div>
+
+<header class="header">
+  <div class="container header-container">
+    <a href="/icecream/">
+      <picture>
+        <source
+          srcset="/img/header/logo.webp 1x, /img/header/logo-2x.webp 2x"
+        />
+
+        <img
+          src="/img/header/logo.webp"
+          alt="Company logo"
+          width="199"
+          height="50"
+        />
+      </picture>
+    </a>
+
+    <load src="/partials/nav.html" classPrefix="header" />
+
+    <div class="header-buttons-box">
+      <button class="header-menu-btn" type="button">
+        <svg class="header-menu-btn-icon" width="20" height="12">
+          <use href="#icon-menu" />
+        </svg>
+      </button>
+
+      <load src="/partials/button-buy-now.html" class="header-cta-btn" />
+    </div>
+  </div>
+</header>

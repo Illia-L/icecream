@@ -1,0 +1,274 @@
+@import 'variables';
+
+.made {
+  padding: 60px 0 66px;
+  background-color: var(--color-light-pink);
+  scroll-margin-top: 66px;  
+  
+  @media (min-width: 768px) {
+    padding-bottom: 205px;
+    scroll-margin-top: 74px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-bottom: 182px;
+  }
+
+  &-container {
+    background-image: url('../img/made/splashes-mob.webp');
+    background-size: 280px 133px;
+    background-position: center top 534px;
+    background-repeat: no-repeat;
+
+    @media (min-resolution: 192dpi) {
+      background-image: url('../img/made/splashes-mob-2x.webp');
+    }
+
+    @media (min-width: $screen-tab) {
+      background-image: none;
+    }
+
+    @media (min-width: $screen-desk) {
+      background-image: url('../img/made/splashes.webp');
+      background-size: contain;
+      background-position: left top 176px;
+
+      @media (min-resolution: 192dpi) {
+        background-image: url('../img/made/splashes-2x.webp');
+      }
+    }
+  }
+
+  &-pretitle {
+    font-family: 'Titan One', sans-serif;
+    line-height: 1;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-pink);
+
+    @media (min-width: 768px) {
+      font-size: 26px;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 30px;
+      letter-spacing: 0.04em;
+    }
+  }
+
+  &-title {
+    margin-top: 15px;
+    font-family: 'Titan One', sans-serif;
+    line-height: 1;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-red);
+
+    @media (min-width: $screen-tab) {
+      margin-top: 18px;
+      font-size: 48px;
+    }
+
+    @media (min-width: $screen-desk) {
+      margin-top: 16px;
+      font-size: 58px;
+      letter-spacing: 0.06em;
+    }
+  }
+
+  &-article {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 32px;
+    width: 100%;
+
+    @media (min-width: $screen-tab) {
+      flex-direction: row;
+      gap: 32px;
+      margin-top: 40px;
+    }
+
+    @media (min-width: $screen-desk) {
+      gap: 99px;
+      margin-top: 60px;
+    }
+  }
+
+  &-image-box {
+    width: 100%;
+
+    @media (min-width: $screen-tab) {
+      width: 335px;
+    }
+
+    @media (min-width: $screen-desk) {
+      width: 501px;
+    }
+  }
+
+  &-desc {
+    width: 220px;
+    line-height: 1.62;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+
+    @media (min-width: $screen-tab) {
+      width: 100%;
+      line-height: 1.74;
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-desk) {
+      margin-top: 90px;
+      width: 401px;
+      line-height: 1.76;
+      font-size: 16px;
+    }
+
+    &-2 {
+      margin-top: 18px;
+      color: var(--color-brown);
+
+      @media (min-width: $screen-tab) {
+        margin-top: 32px;
+        line-height: 1.94;
+      }
+
+      @media (min-width: $screen-desk) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 32px;
+    border-radius: 22px;
+    width: 176px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-red);
+    background-color: #fff;
+    transition: background-color var(--transition);
+
+    &:hover {
+      background-color: var(--color-grey);
+    }
+
+    @media (min-width: $screen-tab) {
+      margin-top: 40px;
+      font-size: 16px;
+    }
+
+    &-text {
+      flex-shrink: 0;
+    }
+
+    &-icon {
+      fill: none;
+      stroke: var(--color-red);
+    }
+  }
+
+  &-features {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    @media (min-width: $screen-tab) {
+      flex-direction: row;
+      gap: 0;
+      margin-top: 52px;
+    }
+
+    @media (min-width: $screen-desk) {
+      margin-top: 121px;
+    }
+  }
+
+  &-feature {
+    &-cow {
+      @media (min-width: $screen-tab) {
+        width: 165px;
+      }
+
+      @media (min-width: $screen-desk) {
+        width: 288px;
+      }
+    }
+
+    &-apples {
+      @media (min-width: $screen-tab) {
+        margin-left: 19px;
+        width: 162px;
+      }
+
+      @media (min-width: $screen-desk) {
+        margin-left: 115px;
+        width: 317px;
+      }
+    }
+
+    &-heart {
+      @media (min-width: $screen-tab) {
+        margin-left: 22px;
+        width: 195px;
+      }
+
+      @media (min-width: $screen-desk) {
+        margin-left: 80px;
+        width: 288px;
+      }
+    }
+
+    &-number {
+      margin-top: 16px;
+      font-family: 'Titan One', sans-serif;
+      line-height: 1;
+      font-size: 36px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--color-red);
+
+      @media (min-width: $screen-tab) {
+        margin-top: 36px;
+        font-size: 48px;
+      }
+
+      @media (min-width: $screen-desk) {
+        margin-top: 40px;
+        font-size: 58px;
+      }
+    }
+
+    &-desc {
+      margin-top: 16px;
+      line-height: 1.7;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+
+      @media (min-width: $screen-tab) {
+        margin-top: 20px;
+        line-height: 1.74;
+        font-size: 14px;
+      }
+
+      @media (min-width: $screen-desk) {
+        line-height: 1.76;
+        font-size: 16px;
+      }
+    }
+  }
+}

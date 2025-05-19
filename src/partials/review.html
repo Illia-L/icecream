@@ -1,0 +1,27 @@
+<li class="reviews-item swiper-slide">
+  <img
+    srcset="/img//reviews/{=$fileName}.webp 1x, /img//reviews/{=$fileName}.webp 2x"
+    src="/img//reviews/{=$fileName}.webp"
+    alt="{=$nameCity}"
+    class="review-ava"
+    width="85"
+    height="85"
+    loading="lazy"
+  />
+
+  <div class="review-bg-color-box">
+    <div class="review-bg-image-box">
+      <p class="review-text">
+        {=$review}
+      </p>
+    </div>
+  </div>
+
+  <div class="review-dots">
+    <div class="review-dot"></div>
+    <div class="review-dot"></div>
+    <div class="review-dot"></div>
+  </div>
+
+  <p class="review-author">{=$nameCity}</p>
+</li>
