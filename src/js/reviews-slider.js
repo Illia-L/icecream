@@ -1,5 +1,12 @@
-import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
+import Swiper from 'swiper';
+import { Autoplay, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+Swiper.use([Autoplay, Pagination]);
+
+// import Swiper from 'swiper/bundle';
+// import 'swiper/css/bundle';
 
 export default function initReviewsSlider() {
   const swiper = new Swiper('.swiper', {
