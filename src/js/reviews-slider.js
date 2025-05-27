@@ -1,14 +1,23 @@
-import Swiper from 'swiper';
-import { Autoplay, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+const reviewsSection = document.getElementById('reviews');
 
-Swiper.use([Autoplay, Pagination]);
+function observerCallback([entry], observer) {
+  if (!entry.isIntersecting) return;
 
-// import Swiper from 'swiper/bundle';
-// import 'swiper/css/bundle';
+  runReviewsSlider();
+  observer.unobserve(entry.target);
+}
 
-export default function initReviewsSlider() {
+const swiperObserver = new IntersectionObserver(observerCallback);
+
+async function runReviewsSlider() {
+  const { default: Swiper } = await import('swiper');
+  const { Autoplay, Pagination } = await import('swiper/modules');
+
+  await import('swiper/css');
+  await import('swiper/css/pagination');
+
+  Swiper.use([Autoplay, Pagination]);
+
   const swiper = new Swiper('.swiper', {
     autoplay: {
       delay: 6000,
@@ -24,4 +33,8 @@ export default function initReviewsSlider() {
       clickable: true,
     },
   });
+}
+
+export default function initReviewsSlider() {
+  swiperObserver.observe(reviewsSection);
 }
