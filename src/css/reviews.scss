@@ -1,14 +1,12 @@
-@import 'variables';
-
 .reviews {
   margin-top: -27px;
   scroll-margin-top: 80px;
 
-  @media (min-width: $screen-tab) {
+  @media (min-width: 768px) {
     margin-top: -187px;
   }
 
-  @media (min-width: $screen-desk) {
+  @media (min-width: 1440px) {
     scroll-margin-top: 100px;
     margin-top: -89px;
   }
@@ -17,11 +15,11 @@
     width: 320px;
     padding: 0;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       width: 768px;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       width: 1200px;
     }
   }
@@ -30,12 +28,12 @@
     width: 320px;
     height: 136px;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       width: 768px;
       height: 327px;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       margin-inline: auto;
       width: 1013px;
       height: 430px;
@@ -45,7 +43,7 @@
   &-list {
     margin-top: 60px;
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       margin-top: 120px;
     }
   }
@@ -69,14 +67,14 @@
     background-repeat: no-repeat;
     background-position: 53px 30px;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       margin-top: 20px;
       width: 620px;
       padding: 38px 6px 36px;
       background-position: 6px 20px;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       margin-top: 16px;
       width: 968px;
       padding: 47px 73px 31px;
@@ -98,7 +96,7 @@
     );
     background-size: 100% 2.6em;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       padding-left: 64px;
       padding-right: 64px;
       height: auto;
@@ -113,7 +111,7 @@
       background-size: 100% 2.14em;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       padding-left: 64px;
       padding-right: 64px;
       height: auto;
@@ -142,11 +140,11 @@
     justify-content: center;
     margin-top: 16px;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       margin-top: 4px;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       margin-top: 16px;
     }
   }
@@ -165,11 +163,11 @@
     font-size: 14px;
     font-weight: 500;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       font-size: 16px;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       font-size: 20px;
     }
   }
@@ -180,12 +178,12 @@
     justify-content: center;
     margin-top: 16px;
 
-    @media (min-width: $screen-tab) {
+    @media (min-width: 768px) {
       margin-top: 32px;
       gap: 18.4px;
     }
 
-    @media (min-width: $screen-desk) {
+    @media (min-width: 1440px) {
       gap: 18px;
     }
 
