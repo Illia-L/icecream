@@ -11,13 +11,12 @@
   padding: 5px 0 20px;
   background-color: #e17992;
   box-shadow: -8px 0 20px 0 #00000040;
-  transition: right var(--transition);
+  transition: right var(--transition), visibility 0s linear 0.25s;
+  visibility: hidden;
 
   @media (min-width: $screen-tab) {
     width: calc((100vw - 768px) / 2 + 254px);
   }
-
-  
 
   &-close {
     display: block;
@@ -67,6 +66,8 @@
   }
 
   &.is-open {
+    visibility: visible;
     right: 0;
+    transition: right 250ms linear 10ms, visibility 0s linear 0s;
   }
 }
