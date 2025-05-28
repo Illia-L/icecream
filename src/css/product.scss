@@ -38,6 +38,8 @@
     height: 280px;
 
     @media (min-width: 768px) {
+      width: 224px;
+      height: 224px;
       top: -138px;
     }
 
@@ -45,6 +47,15 @@
       top: -261px;
       width: 368px;
       height: 394px;
+    }
+  }
+
+  &-image {
+    height: auto;
+    aspect-ratio: 1;
+
+    @media (min-width: 1200px) {
+      aspect-ratio: 368/394;
     }
   }
 
