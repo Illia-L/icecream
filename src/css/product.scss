@@ -34,7 +34,8 @@
   &-image-box {
     position: absolute;
     top: -140px;
-    width: 100%;
+    width: 280px;
+    height: 280px;
 
     @media (min-width: 768px) {
       top: -138px;
@@ -42,6 +43,8 @@
 
     @media (min-width: 1200px) {
       top: -261px;
+      width: 368px;
+      height: 394px;
     }
   }
 
