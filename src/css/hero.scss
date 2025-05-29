@@ -16,7 +16,13 @@
   background-repeat: no-repeat;
 
   @media (min-resolution: 192dpi) {
-    background-image: url('../img/hero/icecream-mob-2x.webp');
+    background-image: url('../img/hero/icecream-mob-2x.webp'),
+      radial-gradient(
+        circle at calc((100vw - 320px) / 2 + 209px) 256px,
+        var(--color-pink) 172px,
+        var(--color-pink) 172px,
+        transparent 173px
+      );
   }
 
   @media (min-width: 768px) {
@@ -34,7 +40,13 @@
     background-position: left calc((100vw - 768px) / 2 + 322px) bottom, center;
 
     @media (min-resolution: 192dpi) {
-      background-image: url('../img/hero/icecream-tab-2x.webp');
+      background-image: url('../img/hero/icecream-tab-2x.webp'),
+        radial-gradient(
+          circle at calc((100vw - 768px) / 2 + 415px) 210px,
+          var(--color-pink) 166px,
+          var(--color-pink) 166px,
+          transparent 167px
+        );
     }
   }
 
@@ -52,7 +64,13 @@
     background-position: right calc((100vw - 1200px) / 2 + 328px) bottom, center;
 
     @media (min-resolution: 192dpi) {
-      background-image: url('../img/hero/icecream-2x.webp');
+      background-image: url('../img/hero/icecream-2x.webp'),
+        radial-gradient(
+          circle at calc((100vw - 1200px) / 2 + 764px) 321px,
+          var(--color-pink) 266px,
+          var(--color-pink) 266px,
+          transparent 267px
+        );
     }
   }
 
